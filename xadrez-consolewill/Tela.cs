@@ -50,8 +50,6 @@ namespace xadrez_consolewill
             Console.BackgroundColor = fundoOriginal;
         }
 
-
-
         public static void imprimirPeca(Peca peca)
         {
 
