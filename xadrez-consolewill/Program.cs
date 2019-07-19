@@ -11,7 +11,6 @@ namespace xadrez_consolewill
 
             try
             {
-
                 PartidaDeXadrez partida = new PartidaDeXadrez();
 
                 while (!partida.terminada) {
@@ -35,7 +34,6 @@ namespace xadrez_consolewill
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validarPosicaoDeDestirno(origem, destino);
 
-
                         partida.realizaJogada(origem, destino);
                     }
                     catch(TabuleiroException e)
@@ -50,7 +48,6 @@ namespace xadrez_consolewill
                 Console.WriteLine(e.Message);
             }
             Console.ReadLine();
-
         }
     }
 }
